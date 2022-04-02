@@ -14,3 +14,5 @@ deploy:
   app: weather-shoes
   on:
     repo: doda2391/group5_final_project
+  all_branches: true
+    
