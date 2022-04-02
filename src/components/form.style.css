@@ -1,0 +1,21 @@
+form{
+    margin-top: 3rem;
+    border: auto solid;
+    padding: 5px;
+    box-shadow: 5px 10px 50px blue;
+    box-sizing: content-box;
+}
+
+form input[name="city"],
+form input[name="country"]{
+    background-color: transparent;
+    color: black; /* Changing the text color to back so when user clicks on the other input box it is visible */
+    border: 0;
+    border-bottom: 2px solid red;
+    border-radius: 0;
+}
+
+form input:focus{
+    background: transparent;
+    box-shadow: none !important;
+}
