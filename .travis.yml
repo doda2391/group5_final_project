@@ -6,11 +6,12 @@ cache:
   - node_modules
 script:
 - npm test
-- npm run build || true
+- CI=false npm run build
 deploy:
   provider: heroku
   api_key:
     secure: odvlQVzkuQv4NcPoMEDLcngG8GUtoAboVmEu9EaAWy5Tcf9LxTk3pu0VfG/HRzccwgSDWJ28WwJ/IijhX3wLwOJBuzmDsB5o5Okc7YMVwzIj5VIATEuvAjpPDvtWVS7NSfkWOMFlngItYhOsfgAcGdphoPVS25sGPcwHrIiSORrVvd2FI6bCsLNt8qMYv1IL35IowzUkJopN+wbFQNLEBwJEjsy6oFSibQ3mbQnFV20jsk6Rm+cfGEQrBmWL5Ws2Nrxrwc+Hjo+i8/lXjsbRaSi07y/PvzP9/U8sq2KWww98kJDRAwfj5wRbWBM6uCTbvyzBJ5NBmVwiNgayK5fsOfRPnBMCi1WGCvW1NUHjLGKtIxMU/yu8OiUlcw471TMwnMu5FDIfYFP0spAW+OrSPYAkUmxFb3nZK+7N4cAqd2BB1YCLX00obbpqWZzlB570QNexWBFvnOizVEbg3UJXge/0QMmHyUVWRzylC9PjzpwdR+5PLBExCo6+fpTN1++3bQDcocHxFFp23tPIlLXtL92LlQpVWh3OOdWdvUrWbFefMynGAtZN3+usauNHaBJXOPrBG8lW3Dv0WWmVth32/vxEqTfEl8YM9K+lbQNzqQC3vEqupZhkMkSsaF/guyPcISSq13B1l69gnzf8Y2Z9fhpVxyBKIzPFbkCDwhZAQGU=
   app: weather-shoes
   on:
+    all_branches: true
     repo: doda2391/group5_final_project
