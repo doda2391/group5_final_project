@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/weather-shoes/static/css/main.00ab7dec.css",
+    "main.js": "/weather-shoes/static/js/main.737b47d3.js",
+    "static/js/787.0fe84981.chunk.js": "/weather-shoes/static/js/787.0fe84981.chunk.js",
+    "static/media/weathericons-regular-webfont.svg": "/weather-shoes/static/media/weathericons-regular-webfont.1341a15172cec8dae06e.svg",
+    "static/media/weathericons-regular-webfont.eot": "/weather-shoes/static/media/weathericons-regular-webfont.bb2ec001c20cf752f852.eot",
+    "static/media/weathericons-regular-webfont.ttf": "/weather-shoes/static/media/weathericons-regular-webfont.0942d1e1c447d6ce3ffc.ttf",
+    "static/media/weathericons-regular-webfont.woff": "/weather-shoes/static/media/weathericons-regular-webfont.371511ddba5fdac0538c.woff",
+    "static/media/weathericons-regular-webfont.woff2": "/weather-shoes/static/media/weathericons-regular-webfont.e218aee6928fe3da9ed6.woff2",
+    "static/media/logo.svg": "/weather-shoes/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/weather-shoes/index.html",
+    "main.00ab7dec.css.map": "/weather-shoes/static/css/main.00ab7dec.css.map",
+    "main.737b47d3.js.map": "/weather-shoes/static/js/main.737b47d3.js.map",
+    "787.0fe84981.chunk.js.map": "/weather-shoes/static/js/787.0fe84981.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.00ab7dec.css",
+    "static/js/main.737b47d3.js"
+  ]
+}
